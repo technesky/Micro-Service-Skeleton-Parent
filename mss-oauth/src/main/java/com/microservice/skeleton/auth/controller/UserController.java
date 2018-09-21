@@ -16,7 +16,7 @@ public class UserController {
     @RequestMapping("/user")
     public Principal user(Principal user) {
         Principal p= user;
-        System.out.println("yancheng user"+user.getName());
+        System.out.println("UserController 验证user :"+user.toString());
         return user;
     }
 
